@@ -1,0 +1,23 @@
+#myLink, #myLink2 {
+    position: absolute;
+    left: 50%;  /* Center horizontally */
+    transform: translateX(-50%);
+    text-decoration: none;  /* Remove underline */
+    color: gold;  /* Set the color to white for visibility */
+    font-size: 18px;  /* Make text larger */
+    font-weight: bold;  /* Make text bold */
+    z-index: 30;  /* Ensure it appears above all other elements */
+    padding: 10px;
+
+}
+
+#myLink {
+    left: 500px;
+    top: 495px;  /* Adjusted to position between capture and retake buttons */
+}
+
+#myLink2 {
+    left: 850px;
+    top: 495px;  /* Slightly higher than the first link */
+}
+
