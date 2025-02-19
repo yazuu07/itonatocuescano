@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: white;
+    position: relative;
+}
+
+.camera-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+video, canvas {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.grid-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background-image: linear-gradient(transparent 24%, rgba(255,255,255,0.2) 25%, rgba(255,255,255,0.2) 26%, transparent 27%, transparent 74%, rgba(255,255,255,0.2) 75%, rgba(255,255,255,0.2) 76%, transparent 77%),
+                      linear-gradient(90deg, transparent 24%, rgba(255,255,255,0.2) 25%, rgba(255,255,255,0.2) 26%, transparent 27%, transparent 74%, rgba(255,255,255,0.2) 75%, rgba(255,255,255,0.2) 76%, transparent 77%);
+    background-size: 33.33% 33.33%;
+}
+
+.capture-button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 15px;
+    margin: 10px auto;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.capture-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.photo-mode {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: yellow;
+    font-size: 14px;
+}

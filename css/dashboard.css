@@ -1,0 +1,200 @@
+/* dashboard.css */
+
+/* General Styles */
+body {
+    background: linear-gradient(to bottom, #B8860b, #000); /* Gradient background */
+    padding: 1.5rem;
+    height: 100vh;
+  }
+  
+  h1, h2 {
+    font-weight: 600;
+  }
+  
+  h2 {
+    font-size: 1.25rem;
+    color: #4b5563; /* gray-800 */
+  }
+  
+  p {
+    color: #4b5563; /* gray-600 */
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: #fbbf24; /* yellow-600 */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border: 2px solid #000;
+    border-radius: 25px;
+  }
+  
+  nav .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav .flex .space-x-4 {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav h1 {
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+  
+  nav p {
+    color: white;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.bg-black {
+    background-color: black;
+    color: white;
+  }
+  
+  button.bg-black:hover {
+    background-color: #2e2e2e; /* stone-800 */
+  }
+  
+  button.bg-blue-500 {
+    background-color: #3b82f6; /* blue-500 */
+    color: white;
+  }
+  
+  button.bg-blue-500:hover {
+    background-color: #2563eb; /* blue-600 */
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #d1d5db; /* gray-200 */
+  }
+  
+  table th {
+    color: #4b5563; /* gray-700 */
+  }
+  
+  table tbody tr:hover {
+    background-color: #f9fafb; /* gray-50 */
+  }
+  
+  table .text-blue-500 {
+    color: #000000; /* blue-500 */
+  }
+  
+  table .text-blue-500:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  /* Add User Button */
+  button .button {
+    background-color: #fbbf24; /* blue-500 */
+    color: white;
+  }
+  
+  button.bg-blue-500:hover {
+    background-color: #fbbf24; /* blue-600 */
+  }
+  
+  /* Main Content */
+  .max-w-5xl {
+    max-width: 72rem; /* 5xl */
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .bg-white {
+    background-color: white;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .p-6 {
+    padding: 1.5rem;
+  }
+  
+  .mt-10 {
+    margin-top: 2.5rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .text-xl {
+    font-size: 1.25rem;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .text-gray-800 {
+    color: #1f2937; /* gray-800 */
+  }
+  
+  .text-gray-600 {
+    color: #4b5563; /* gray-600 */
+  }
+  
+  /* Hover and active states */
+  .hover\:bg-gray-50:hover {
+    background-color: #f9fafb; /* gray-50 */
+  }
+  
+  .hover\:underline:hover {
+    text-decoration: underline;
+  }
+  
+  /* Add padding to some elements */
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
